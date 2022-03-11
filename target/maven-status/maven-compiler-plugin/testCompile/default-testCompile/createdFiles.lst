@@ -1,9 +1,0 @@
-cucumberOptions\Hooks.class
-cucumberOptions\Hooks$1.class
-facebook\stepDefinitions\FacebookSteps.class
-bank\stepDefinitions\HomePageSteps.class
-bank\stepDefinitions\RegisterPageSteps.class
-cucumberOptions\Hooks$BrowserCleanup.class
-cucumberOptions\FacebookTestRunner.class
-bank\stepDefinitions\LoginPageSteps.class
-cucumberOptions\BankTestRunner.class

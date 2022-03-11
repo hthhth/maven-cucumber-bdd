@@ -6,6 +6,10 @@ public class PageGeneratorManager {
     private static HomePageObject homePage;
     private static LoginPageObject loginPage;
     private static RegisterPageObject registerPage;
+    private static NewCustomerPageObject newCustomerPage;
+    private static EditCustomerPageObject editCustomerPage;
+    private static CommonPageObject commonPage;
+
 //    private static SearchPageObject searchPage;
 //    private static MyAccountPageObject myAccountPage;
 //    private static OrderPageObject orderPage;
@@ -34,6 +38,30 @@ public class PageGeneratorManager {
 //        return new RegisterPageObject(driver);
         return registerPage;
     }
+
+    public static NewCustomerPageObject getNewCustomerPage(WebDriver driver){
+        if (newCustomerPage == null){
+            newCustomerPage = new NewCustomerPageObject(driver);
+        }
+        return newCustomerPage;
+    }
+
+    public static EditCustomerPageObject getEditCustomerPage(WebDriver driver){
+        if (editCustomerPage == null){
+            editCustomerPage = new EditCustomerPageObject(driver);
+        }
+        return editCustomerPage;
+    }
+
+    public static CommonPageObject getCommonPage(WebDriver driver){
+        if (commonPage == null){
+            commonPage = new CommonPageObject(driver);
+        }
+        return commonPage;
+    }
+
+
+
 //    public static SearchPageObject getSearchPage(WebDriver driver){
 //        if (searchPage == null){
 //            searchPage = new SearchPageObject(driver);

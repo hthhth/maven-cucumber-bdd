@@ -19,7 +19,7 @@ public class HomePageSteps {
 
     @Then("Home page displayed")
     public void homePageDisplayed() {
-        Assert.assertFalse(homePage.isWelcomeMessageDisplayed());
+        Assert.assertTrue(homePage.isWelcomeMessageDisplayed());
 
     }
 }

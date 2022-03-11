@@ -9,5 +9,8 @@
         <module name="maven-cucumber-bdd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="maven-cucumber-bdd" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
